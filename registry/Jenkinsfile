@@ -1,0 +1,63 @@
+#!/usr/bin/env groovy
+
+pipeline {
+
+    agent any
+   
+    options { disableConcurrentBuilds() }
+   
+   
+    stages {
+    
+    	 stage('Permissions') {
+            steps {
+                sh 'chmod 775 *'
+            }
+        }
+        
+        stage('Compile stage') {
+            steps {
+                sh "mvn clean compile" 
+        	}
+   		 }
+
+         stage('testing ') {
+             steps {
+                sh "mvn test"
+     		   }
+    		}
+    		
+		stage('install') {
+             steps {
+                sh "mvn install"
+     		   }
+    		}
+		
+		stage('Update Docker UAT image') {
+           
+            steps {
+                sh '''
+					docker login -u "mkefi" -p "09152798Km"
+                    docker build --no-cache -t registry:latest .
+                    docker tag registry:latest mkefi/registry:latest
+                    docker push mkefi/registry:latest
+					docker rmi registry:latest
+                '''
+       			 }
+        	}
+        	
+        stage('Update UAT container') {
+           
+            steps {
+                sh '''
+				docker login -u "mkefi" -p "09152798Km"
+                    docker pull mkefi/registry:latest 
+                    docker stop registry
+                    docker rm registry                   
+                    docker run -p 9000:9000 --name registry --network dbconnexion --restart=always -t -d mkefi/registry:latest                                      
+                '''
+            }
+        }
+		
+	}
+  }

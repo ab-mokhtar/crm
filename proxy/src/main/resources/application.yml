@@ -1,0 +1,87 @@
+server:
+  port: 8081    #default port where the service will be started
+ 
+eureka:         #tells about the Eureka server details and its refresh time
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+    ip-address: http://localhost
+    hostname: localhost
+    secure-port-enabled: true
+    secure-port: 9001
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9000/eureka/
+    healthcheck:
+      enabled: true
+    lease:
+      duration: 5
+ 
+spring:
+  servlet:
+    multipart:
+      max-file-size: -1
+      max-request-size: -1  
+  http:
+    multipart:
+       max-file-size: 30MB
+       max-request-size: 30MB       
+  application:
+    name: PROXY   #current service name to be used by the eureka server
+     
+ 
+logging:
+  level:
+    com.example.howtodoinjava: DEBUG
+ 
+hystrixProperties:
+  hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
+ 
+ 
+dropboxservice:
+  ribbon:
+    ConnectTimeout: 60000
+    ReadTimeout: 60000  
+    
+hystrix:
+   command:
+      default:
+         execution:
+            iso lation:
+               thread:
+                  timeoutInMilliseconds: 60000
+ 
+ 
+ribbon:
+   ReadTimeout: 60000
+   connection-timeout: 60000
+   eureka:
+      enabled: true
+ 
+  
+zuul:
+  sensitiveHeaders:
+  ignored-headers: Access-Control-Allow-Credentials, Access-Control-Allow-Origin
+  host:
+      time-to-live: -1
+      connect-timeout-millis: 60000
+      max-per-route-connections: 60000
+      max-total-connections: 60000
+      socket-timeout-millis: 60000
+  routes:
+     AUTHENTIFICATION:
+      path: /auth/**
+      serviceId: AUTHENTIFICATION
+      stripPrefix: true
+     MISSION:
+      path: /mission/**
+      serviceId: MISSION
+      stripPrefix: true
+     FACTURATION:
+      path: /facturation/**
+      serviceId: FACTURATION
+      stripPrefix: true
+     CHATAPP:
+       path: /chat/**
+       serviceId: CHATAPP
+       stripPrefix: true

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="55e2a867-0365-4dfd-a36d-7fccc3723b0a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/src/main/java/com/mosofty/crm/configuration/MongoConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/src/main/java/com/mosofty/crm/dto/AuthRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/src/main/java/com/mosofty/crm/dto/CreateUserRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/src/main/java/com/mosofty/crm/dto/ListResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/src/main/java/com/mosofty/crm/dto/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/src/main/java/com/mosofty/crm/dto/RoleView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/src/main/java/com/mosofty/crm/dto/SearchRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/src/main/java/com/mosofty/crm/dto/SearchUsersQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/src/main/java/com/mosofty/crm/dto/UpdateUserRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/src/main/java/com/mosofty/crm/dto/UserView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/src/main/java/com/mosofty/crm/exception/InternalServerError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/src/main/java/com/mosofty/crm/exception/NotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/src/main/java/com/mosofty/crm/mapper/UserEditMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/src/main/java/com/mosofty/crm/mapper/UserViewMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/src/main/java/com/mosofty/crm/model/AuthRegisterUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/src/main/java/com/mosofty/crm/model/ComparableEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/src/main/java/com/mosofty/crm/model/CompteBancaire.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/src/main/java/com/mosofty/crm/model/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/src/main/java/com/mosofty/crm/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/src/main/java/com/mosofty/crm/repository/UserRepo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/configuration/MongoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/configuration/MongoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/dto/AuthRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/dto/AuthRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/dto/CreateUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/dto/CreateUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/dto/ListResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/dto/ListResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/dto/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/dto/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/dto/RoleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/dto/RoleView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/dto/SearchRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/dto/SearchRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/dto/SearchUsersQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/dto/SearchUsersQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/dto/UpdateUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/dto/UpdateUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/dto/UserView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/dto/UserView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/exception/InternalServerError.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/exception/InternalServerError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/exception/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/exception/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/mapper/UserEditMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/mapper/UserEditMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/mapper/UserViewMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/mapper/UserViewMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/model/AuthRegisterUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/model/AuthRegisterUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/model/ComparableEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/model/ComparableEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/model/CompteBancaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/model/CompteBancaire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/repository/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/java/com/mosofty/crm/repository/UserRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-repository/src/main/resources/application-persistence.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-repository/bin/src/main/resources/application-persistence.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-service/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-service/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-service/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-service/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-service/src/main/java/com/mosofty/crm/dto/CompteBancaireDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-service/src/main/java/com/mosofty/crm/dto/CompteBancaireDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-service/src/main/java/com/mosofty/crm/dto/UserForFacturation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-service/src/main/java/com/mosofty/crm/dto/UserForFacturation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-service/src/main/java/com/mosofty/crm/service/ParametersUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-service/src/main/java/com/mosofty/crm/service/ParametersUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-service/src/main/java/com/mosofty/crm/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-service/src/main/java/com/mosofty/crm/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.factorypath" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.factorypath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.settings/org.eclipse.core.resources.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.settings/org.eclipse.wst.common.component.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.settings/org.eclipse.wst.common.component.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.settings/org.eclipse.wst.validation.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.settings/org.springframework.ide.eclipse.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/.settings/org.springframework.ide.eclipse.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/logs/crm.log" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/logs/crm.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/CrmApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/CrmApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/api/AuthApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/api/AuthApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/api/ParameterUserApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/api/ParameterUserApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/api/UserAdminApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/api/UserAdminApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/config/CorsFilters.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/config/CorsFilters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/config/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/config/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/config/LoggingConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/config/LoggingConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/config/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/configuration/json/ObjectMapperConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/configuration/json/ObjectMapperConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/configuration/json/serializer/LocalDateDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/configuration/json/serializer/LocalDateDeserializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/configuration/json/serializer/LocalDateSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/configuration/json/serializer/LocalDateSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/configuration/json/serializer/LocalDateTimeDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/configuration/json/serializer/LocalDateTimeDeserializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/configuration/json/serializer/LocalDateTimeSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/configuration/json/serializer/LocalDateTimeSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/tools/AuthentificationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/java/com/mosofty/crm/tools/AuthentificationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/resources/pkcs8.key" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/resources/pkcs8.key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/resources/private.key" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/resources/private.key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/resources/public.key" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/src/main/resources/public.key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/crm-proxy-webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authentification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../authentification/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proxy/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proxy/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proxy/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proxy/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proxy/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proxy/bin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/bin/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proxy/bin/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/bin/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proxy/bin/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/bin/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proxy/bin/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/bin/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proxy/bin/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/bin/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proxy/bin/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/bin/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proxy/bin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/bin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proxy/bin/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/bin/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proxy/bin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/bin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proxy/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proxy/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proxy/src/main/java/com/quefi/platform/ProxyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/quefi/platform/ProxyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proxy/src/main/java/com/quefi/platform/configuration/LogFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/quefi/platform/configuration/LogFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proxy/src/main/java/com/quefi/platform/configuration/SimpleCORSFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/quefi/platform/configuration/SimpleCORSFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proxy/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proxy/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registry/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../registry/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registry/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../registry/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registry/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../registry/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registry/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../registry/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registry/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/../registry/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registry/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../registry/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registry/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../registry/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../registry/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registry/src/main/java/com/quefi/platform/registry/RegistryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../registry/src/main/java/com/quefi/platform/registry/RegistryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registry/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../registry/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../authentification" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MigrationScriptOptions">
+    <option name="ignoreImplicitObjects" value="true" />
+    <option name="ignoreSourceCode" value="false" />
+  </component>
+  <component name="ProjectId" id="2b5AHIOSuvnDpZI2OSNvgggXHf0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/abbes/Desktop/chatapp/Chat/src/main/java/com/mosofty/chat&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;16f9b8d61a8c79cdc42f3a8a1518a7c6&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;documentdb&quot;,
+      &quot;mongo&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../Chat/src/main/java/com/mosofty/chat" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ChatApplication">
+    <configuration name="ChatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Chat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mosofty.chat.ChatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="crm-proxy-webapp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mosofty.CrmApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="proxy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.quefi.platform.ProxyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="registry" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.quefi.platform.registry.RegistryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ChatApplication" />
+      <item itemvalue="Spring Boot.CrmApplication" />
+      <item itemvalue="Spring Boot.ProxyApplication" />
+      <item itemvalue="Spring Boot.RegistryApplication" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55e2a867-0365-4dfd-a36d-7fccc3723b0a" name="Changes" comment="" />
+      <created>1705494477451</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705494477451</updated>
+      <workItem from="1705494478980" duration="6553000" />
+      <workItem from="1705651468635" duration="20595000" />
+      <workItem from="1705911632913" duration="9399000" />
+      <workItem from="1705997759083" duration="5574000" />
+      <workItem from="1706084456877" duration="14336000" />
+      <workItem from="1706171359758" duration="826000" />
+      <workItem from="1706219961234" duration="8790000" />
+      <workItem from="1706298251600" duration="162000" />
+      <workItem from="1706299098874" duration="53000" />
+      <workItem from="1706475996963" duration="9454000" />
+      <workItem from="1706517649998" duration="3434000" />
+      <workItem from="1706601888866" duration="4284000" />
+      <workItem from="1706689559441" duration="4202000" />
+      <workItem from="1706775286098" duration="672000" />
+      <workItem from="1706871167368" duration="1205000" />
+      <workItem from="1707048377616" duration="308000" />
+      <workItem from="1707120446261" duration="2019000" />
+      <workItem from="1707206765378" duration="2762000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

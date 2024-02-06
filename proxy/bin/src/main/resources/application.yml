@@ -1,0 +1,108 @@
+server:
+  port: 8081    #default port where the service will be started
+ 
+eureka:         #tells about the Eureka server details and its refresh time  http://registry:9000/eureka/
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+    ip-address: http://104.225.216.185
+    hostname: 104.225.216.185
+    secure-port-enabled: true
+    secure-port: 9501
+  client:
+    serviceUrl:
+      defaultZone: http://104.225.216.185:9500/eureka/
+    healthcheck:
+      enabled: true
+    lease:
+      duration: 5
+ 
+spring:
+  servlet:
+    multipart:
+      max-file-size: -1
+      max-request-size: -1  
+  http:
+    multipart:
+       max-file-size: 30MB
+       max-request-size: 30MB       
+  application:
+    name: PROXY   #current service name to be used by the eureka server
+     
+
+logging:
+  level:
+    com.example.howtodoinjava: DEBUG
+
+hystrixProperties:
+  hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 3600000
+
+
+dropboxservice: 
+  ribbon:
+    ConnectTimeout: 3600000
+    ReadTimeout: 3600000
+    
+hystrix:
+   command:
+      default:
+         execution:
+            iso lation:
+               thread:
+                  timeoutInMilliseconds: 3600000
+
+
+ribbon:
+   ReadTimeout: 3600000
+   connection-timeout: 3600000
+   eureka:
+      enabled: true
+
+  
+zuul:
+  sensitiveHeaders:
+  ignored-headers: Access-Control-Allow-Credentials, Access-Control-Allow-Origin
+  host:
+      time-to-live: -1
+      connect-timeout-millis: 3600000
+      max-per-route-connections: 3600000
+      max-total-connections: 3600000
+      socket-timeout-millis: 3600000
+  routes:
+     AUTHENTIFICATION:
+      path: /auth/**
+      serviceId: AUTHENTIFICATION
+      stripPrefix: true
+     MISSION:
+      path: /mission/**
+      serviceId: MISSION
+      stripPrefix: true
+     FACTURATION:
+      path: /facturation/**
+      serviceId: FACTURATION
+      stripPrefix: true
+     OCRAWS:
+      path: /crmaws/**
+      serviceId: OCRAWS
+      stripPrefix: true
+     OCRSAVE:
+       path: /crmsave/**
+       serviceId: CRM_OCR_SAVE
+       stripPrefix: true
+     OCROPENCV:
+       path: /crmsocr/**
+       serviceId: CRM_OCR_PREROCESSING
+       stripPrefix: true
+     CRMCV:
+       path: /resumemanage/**
+       serviceId: Crm_Cv
+       stripPrefix: true
+     RH:
+       path: /rhback/**
+       serviceId: rhback
+       stripPrefix: true
+     MAILMANAGER:
+       path: /mailmanager/**
+       serviceId: MAILMANAGER
+       stripPrefix: true
+ 
